@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!--SECCION DE META DATA-->
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="imagen/WEB.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML, CSS, JavaScript</title>
+    <meta name="description" content="Pagina de Ejemplo para Proyecto Web Basico con HTML5, CSS,  Git y Git-Hub de IHC">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="ING. JUANCITO PEÑA">
+    <meta name="copyright" content="https://advisertecnology.com/" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+  </head>
+  <body>
+    <div class="container">
+       <!--ENCABEZADO-->
+        <header>
+          <h1>BIENVENIDOS A MI MINI-BLOG</h1>
+        </header> 
+      <!--NAVEGACION-->
+      <nav>
+ 
+        <div class="topnav" id="myTopnav">
+          <a href="index.html">Inicio</a>
+          <a href="sobremi.html"class="active">Sobre Mi</a>
+          <a href="curso.html">Cursos</a>
+          <a href="contactos.html">Contactos</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+    <!--CONTENIDO-->
+    <section id="contenido">
+
+      <!--ARTICULOS-->
+      <article>
+        <h2>¿Quien Soy?</h2>
+        
+        <hr>
+
+        <br>
+
+        <p class="Articulo1">
+            <img class="foto" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngjoy.com%2Fpngm%2F317%2F5959856_yoshikage-kira-jojo-bizarre-adventure-kira-manga-png.png&f=1&nofb=1&ipt=84c26675e7eeb6bdad66c42b2122d3d104921746e49ccb34e013cf05b4e063fc&ipo=images" alt="Foto"><br>
+          
+            <h3 class="sklill"> Oficinista | Stand-User | Blogger</h3>
+        <br>
+        <br>
+
+        <p class="Articulo1"> 
+          Me llamo Yoshikage Kira. Tengo 33 años. Mi casa está en la sección noreste de Morioh, donde están todas villas, y no estoy casado.
+          Trabajo como empleado de los grandes almacenes Kame Yu, y llego a casa todos los días a más tardar 8 p.m. No fumo, pero ocasionalmente bebo. 
+          Estoy en la cama a las 11 de la noche y me aseguro de dormir ocho horas, pase lo que pase. Después de tomar un vaso de leche tibia y hacer 
+          unos veinte minutos de estiramientos antes de acostarme, generalmente no tengo problemas para dormir hasta la mañana. Al igual que un bebé, 
+          me levanto sin fatiga ni estrés por la mañana. Me dijeron que no había problemas en mi último chequeo. 
+          Estoy tratando de explicar que soy una persona que desea vivir una vida muy tranquila. Tengo cuidado de no molestarme con ningún enemigo, 
+          como ganar o perder, que me haría perder el sueño por la noche. Así es como trato con la sociedad, y sé que eso es lo que me trae felicidad. 
+          Aunque, si tuviera que pelear, no perdería con nadie.
+          <br>
+          <br>
+          <br>
+    
+      </article> 
+
+          <hr>
+
+          <div class="redes">
+            <h2>Sigueme en mis Redes Sociales</h2>
+
+            <!-- Agregamos font awesome icons -->
+             <a href="#" class="fa fa-linkedin-square"  style="font-size:30px"></a>
+             <a href="#" class="fa fa-youtube-square" style="font-size:30px"></a>
+             <a href="#" class="fa fa-facebook-square" style="font-size:30px"></a>
+             <a href="#" class="fa fa-twitter-square" style="font-size:30px"></a>
+             <a href="#" class="fa fa-github-square" style="font-size:30px"></a>
+        
+          </div>
+   <br>
+   <br>   
+
+</section>
+        <!--PUBLICIDAD-->
+        <aside>
+          <h2>(Finge hasta que lo consigas)</h2>
+          <hr>
+          <img src="https://static.wixstatic.com/media/ec7115_a6f8311d036040e7bd440526189a3d8f~mv2.gif" alt="">
+          <br>
+
+          <hr>
+
+          <h2>Que necesitas saber de Data Science</h2>
+          <iframe  class="video" src="https://www.youtube.com/embed/Lt2P88q0Y68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <br>
+          
+          <hr>
+          
+        
+          <h2>La ruta para aprender Desarrollo Web</h2>
+          <iframe class="video"  src="https://www.youtube.com/embed/ExsGyZDBlJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <br>
+
+          <hr>
+
+          <br>
+          <br>
+          
+        </aside>
+        
+        <div class="clearfix" ></div>
+
+          <!--FOOTER O PIE DE PAGINA-->
+          <footer>
+            <p class="footer"> @ 2022 Creado por Gibert Sosa: <a href="https://www.20minutos.es/noticia/1147272/0/" target="_blank" >Vercel</a></p>
+          </footer>
+        </div>
+
+     <!--FUNCION JAVASCRIPT PARA EL MENU-->
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+
+  </body>
+</html>
